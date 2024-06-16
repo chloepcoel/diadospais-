@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Father's Day!</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Include lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 </head>
 <body>
     <header>
@@ -35,12 +37,28 @@
             </p>
         </div>
         <div class="image-gallery">
-            <img src="papai.JPG" alt="Image 1">
-            <img src="papai2.JPG" alt="Image 2">
-            <img src="papai3.JPG" alt="Image 3">
-            <img src="papai4.JPG" alt="Image 4">
-            <img src="papai5.JPG" alt="Image 5">
+            <a href="papai.JPG" data-lightbox="gallery" data-title="Papai">
+                <img src="papai.JPG" alt="Papai">
+            </a>
+            <a href="papai1.JPG" data-lightbox="gallery" data-title="Papai 1">
+                <img src="papai1.JPG" alt="Papai 1">
+            </a>
+            <a href="papai2.JPG" data-lightbox="gallery" data-title="Papai 2">
+                <img src="papai2.JPG" alt="Papai 2">
+            </a>
+            <a href="papai3.JPG" data-lightbox="gallery" data-title="Papai 3">
+                <img src="papai3.JPG" alt="Papai 3">
+            </a>
+            <a href="papai4.JPG" data-lightbox="gallery" data-title="Papai 4">
+                <img src="papai4.JPG" alt="Papai 4">
+            </a>
+            <a href="papai5.JPG" data-lightbox="gallery" data-title="Papai 5">
+                <img src="papai5.JPG" alt="Papai 5">
+            </a>
         </div>
     </main>
+
+    <!-- Include lightbox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
