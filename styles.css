@@ -1,47 +1,53 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
     text-align: center;
-    background-color: #f2f2f2;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
 }
 
-h1 {
-    color: #333;
+.title {
+    font-size: 2.5em;
+    margin: 0;
 }
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.mySlides {
-    display: none;
+.letter-box {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-img {
-    vertical-align: middle;
+.poem {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
 }
 
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.active {
-    background-color: #717171;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+.image-gallery img {
+    max-width: 150px;
+    border-radius: 8px;
 }
